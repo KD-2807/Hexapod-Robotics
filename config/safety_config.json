@@ -1,0 +1,19 @@
+{
+  "watchdog_timeout_s": 1.5,
+  "max_joint_speed_dps": 360.0,
+  "angle_margin_deg": 3.0,
+  "joint_limits_deg": {
+    "coxa": [
+      -50.0,
+      50.0
+    ],
+    "femur": [
+      -70.0,
+      90.0
+    ],
+    "tibia": [
+      -140.0,
+      10.0
+    ]
+  }
+}

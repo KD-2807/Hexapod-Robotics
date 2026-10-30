@@ -1,0 +1,12 @@
+Validation date: 2026-10-29
+Command: python -m unittest discover -s tests -t . -v
+Environment: Python on Linux; C++ firmware host checks use g++/make.
+GUI layout and real ESP32 were not exercised.
+
+Ran 93 tests in 13.020s
+
+OK
+
+16 model/integration tests + 77 existing controller, protocol, PC and firmware tests.
+Model adapter/direct-controller comparison: 6 commands x 3 gaits x 600 ticks, exact 18-angle equality.
+Sampled support margin uses scheduled stance and an assumed central COM; not a dynamics test.

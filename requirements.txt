@@ -1,0 +1,4 @@
+# Lõi điều khiển, ứng dụng PC, công cụ và test chỉ dùng thư viện chuẩn của Python (>= 3.10).
+# Giao diện PC cần Tkinter:  Windows/macOS: có sẵn | Ubuntu/Debian: sudo apt install python3-tk
+matplotlib>=3.5     # chỉ cần cho simulation.run_sim (cửa sổ 3D)
+pyserial>=3.5       # tùy chọn: chỉ khi điều khiển qua cáp USB (SerialClient)

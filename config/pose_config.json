@@ -1,0 +1,20 @@
+{
+  "z_limits_mm": [
+    -25.0,
+    30.0
+  ],
+  "roll_limit_deg": 15.0,
+  "pitch_limit_deg": 15.0,
+  "yaw_limit_deg": 20.0,
+  "z_rate_mm_s": 40.0,
+  "angle_rate_deg_s": 40.0,
+  "walk_z_limits_mm": [
+    -2.0,
+    10.0
+  ],
+  "walk_roll_limit_deg": 2.0,
+  "walk_pitch_limit_deg": 2.0,
+  "walk_yaw_limit_deg": 5.0,
+  "pose_check_margin_deg": 2.0,
+  "_note": "walk_* = vung tu the cho phep khi robot dang buoc (nho hon vung khi dung yen). Gia tri da kiem chung bang mo phong ngau nhien 480 lan khong loi."
+}

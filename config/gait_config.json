@@ -1,0 +1,87 @@
+{
+  "step_length_mm": 60.0,
+  "step_height_mm": 20.0,
+  "turn_angle_deg_per_cycle": 20.0,
+  "max_stride_mm": 70.0,
+  "lift_ramp_mm": 25.0,
+  "velocity_ramp_per_s": 3.0,
+  "default_gait": "tripod",
+  "default_speed": 0.6,
+  "gaits": {
+    "tripod": {
+      "duty": 0.5,
+      "cycle_time_s": 1.5,
+      "swing_slots": [
+        [
+          "i",
+          "k",
+          "m"
+        ],
+        [
+          "j",
+          "l",
+          "n"
+        ]
+      ]
+    },
+    "wave": {
+      "duty": 0.8334,
+      "cycle_time_s": 4.5,
+      "swing_slots": [
+        [
+          "j"
+        ],
+        [
+          "i"
+        ],
+        [
+          "n"
+        ],
+        [
+          "k"
+        ],
+        [
+          "l"
+        ],
+        [
+          "m"
+        ]
+      ]
+    },
+    "ripple": {
+      "duty": 0.6667,
+      "cycle_time_s": 2.25,
+      "swing_slots": [
+        [
+          "j",
+          "m"
+        ],
+        [
+          "i",
+          "l"
+        ],
+        [
+          "n",
+          "k"
+        ]
+      ],
+      "_note": "Ba cap chan doi dien; da doi chieu COM gia dinh trong kiem tra mo phong. Khong thay the kiem chung on dinh dong."
+    },
+    "rotation": {
+      "duty": 0.5,
+      "cycle_time_s": 1.5,
+      "swing_slots": [
+        [
+          "i",
+          "k",
+          "m"
+        ],
+        [
+          "j",
+          "l",
+          "n"
+        ]
+      ]
+    }
+  }
+}

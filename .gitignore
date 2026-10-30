@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / CPU cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local Configuration & Secrets
+config/network_config.json
+# Keep other config files for versioning, but ignore local overrides if they exist
+*.local.json
+
+# Build artifacts
+firmware_esp32/test/host/host_test
+*.o
+*.a
+*.so
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

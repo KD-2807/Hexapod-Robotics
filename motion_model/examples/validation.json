@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-29",
+  "configuration": "config/robot_config.json",
+  "angle_order": "i,j,k,l,m,n; coxa,femur,tibia",
+  "note": "phase support is diagnostic only; assumed COM; no measured contact or global odometry",
+  "cases": [
+    {
+      "gait": "tripod",
+      "motion": "forward",
+      "command_normalized": [
+        0,
+        1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 53.08439372275886,
+      "joint_ranges_deg": [
+        [
+          -15.25511870305774,
+          15.022152918898103
+        ],
+        [
+          11.152882297407329,
+          47.533013964525125
+        ],
+        [
+          -123.4244635344161,
+          -74.31187310040637
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "tripod",
+      "motion": "backward",
+      "command_normalized": [
+        0,
+        -1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 53.084393722758875,
+      "joint_ranges_deg": [
+        [
+          -15.022152918898103,
+          15.25511870305774
+        ],
+        [
+          11.152882297407329,
+          47.533013964525125
+        ],
+        [
+          -123.4244635344161,
+          -74.31187310040637
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "tripod",
+      "motion": "right",
+      "command_normalized": [
+        1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 65.54729912513675,
+      "joint_ranges_deg": [
+        [
+          -13.181370370188843,
+          13.181370370188843
+        ],
+        [
+          6.741560700904158,
+          48.21351124566346
+        ],
+        [
+          -128.15745688532192,
+          -64.71755331278877
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "tripod",
+      "motion": "left",
+      "command_normalized": [
+        -1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 65.77203272213698,
+      "joint_ranges_deg": [
+        [
+          -13.437369595764828,
+          13.437369595764828
+        ],
+        [
+          6.380049690946034,
+          48.20527478404231
+        ],
+        [
+          -128.1641312469452,
+          -63.96238988714909
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "tripod",
+      "motion": "rotate",
+      "command_normalized": [
+        0,
+        0,
+        0.6
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 79.59317686843063,
+      "joint_ranges_deg": [
+        [
+          -11.100054735422848,
+          11.100054735422855
+        ],
+        [
+          19.373429745859138,
+          46.75123009866886
+        ],
+        [
+          -117.74715923254259,
+          -96.05013772301724
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "tripod",
+      "motion": "arc",
+      "command_normalized": [
+        0.4,
+        0.7,
+        0.3
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 55.60111564557753,
+      "joint_ranges_deg": [
+        [
+          -16.967685357832178,
+          17.93711742028649
+        ],
+        [
+          10.175551373247284,
+          47.78343110662224
+        ],
+        [
+          -125.4564373621176,
+          -72.11688372106181
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "forward",
+      "command_normalized": [
+        0,
+        1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        5,
+        6
+      ],
+      "min_phase_support_margin_mm": 79.9907875023798,
+      "joint_ranges_deg": [
+        [
+          -15.208570322476248,
+          15.255118703057544
+        ],
+        [
+          11.152882297411903,
+          47.53312761051762
+        ],
+        [
+          -123.42446454766093,
+          -74.31187310041183
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "backward",
+      "command_normalized": [
+        0,
+        -1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        5,
+        6
+      ],
+      "min_phase_support_margin_mm": 62.97435057944348,
+      "joint_ranges_deg": [
+        [
+          -15.255118703057544,
+          15.208570322476248
+        ],
+        [
+          11.152882297407292,
+          47.53312761051761
+        ],
+        [
+          -123.42446454766093,
+          -74.31187310040629
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "right",
+      "command_normalized": [
+        1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        5,
+        6
+      ],
+      "min_phase_support_margin_mm": 69.95243469461721,
+      "joint_ranges_deg": [
+        [
+          -13.437369595763668,
+          13.437369595764869
+        ],
+        [
+          6.380049690947096,
+          48.20562961369259
+        ],
+        [
+          -128.1642136935387,
+          -63.96238988715041
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "left",
+      "command_normalized": [
+        -1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        5,
+        6
+      ],
+      "min_phase_support_margin_mm": 69.90690054616434,
+      "joint_ranges_deg": [
+        [
+          -13.38606085320894,
+          13.386060853208996
+        ],
+        [
+          6.452845921778939,
+          48.213555302738435
+        ],
+        [
+          -128.15760790016603,
+          -64.11413352749695
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "rotate",
+      "command_normalized": [
+        0,
+        0,
+        0.6
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 79.59317686843063,
+      "joint_ranges_deg": [
+        [
+          -11.100054735422848,
+          11.100054735422855
+        ],
+        [
+          19.373429745859138,
+          46.75123009866886
+        ],
+        [
+          -117.74715923254259,
+          -96.05013772301724
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "wave",
+      "motion": "arc",
+      "command_normalized": [
+        0.4,
+        0.7,
+        0.3
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        5,
+        6
+      ],
+      "min_phase_support_margin_mm": 79.4091254220633,
+      "joint_ranges_deg": [
+        [
+          -16.910251034551557,
+          17.877876085300898
+        ],
+        [
+          10.22495127436161,
+          47.78265183256038
+        ],
+        [
+          -125.45865610058739,
+          -72.22675008373842
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "forward",
+      "command_normalized": [
+        0,
+        1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        4,
+        6
+      ],
+      "min_phase_support_margin_mm": 65.30446369580902,
+      "joint_ranges_deg": [
+        [
+          -15.2551187030577,
+          15.2551187030577
+        ],
+        [
+          11.152882297407292,
+          47.53304370746582
+        ],
+        [
+          -123.42446400427535,
+          -74.31187310040629
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "backward",
+      "command_normalized": [
+        0,
+        -1,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        4,
+        6
+      ],
+      "min_phase_support_margin_mm": 65.30446369580905,
+      "joint_ranges_deg": [
+        [
+          -15.2551187030577,
+          15.2551187030577
+        ],
+        [
+          11.152882297407292,
+          47.53304370746582
+        ],
+        [
+          -123.42446400427535,
+          -74.31187310040629
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "right",
+      "command_normalized": [
+        1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        4,
+        6
+      ],
+      "min_phase_support_margin_mm": 71.07206158328488,
+      "joint_ranges_deg": [
+        [
+          -13.43736959576467,
+          13.437369595764869
+        ],
+        [
+          6.380049690946104,
+          48.21352393670335
+        ],
+        [
+          -128.16415457140113,
+          -63.962389887149214
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "left",
+      "command_normalized": [
+        -1,
+        0,
+        0
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        4,
+        6
+      ],
+      "min_phase_support_margin_mm": 71.07206158328489,
+      "joint_ranges_deg": [
+        [
+          -13.43736959576467,
+          13.437369595764869
+        ],
+        [
+          6.380049690946104,
+          48.21352393670335
+        ],
+        [
+          -128.16415457140113,
+          -63.962389887149214
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "rotate",
+      "command_normalized": [
+        0,
+        0,
+        0.6
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        3,
+        6
+      ],
+      "min_phase_support_margin_mm": 79.59317686843063,
+      "joint_ranges_deg": [
+        [
+          -11.100054735422848,
+          11.100054735422855
+        ],
+        [
+          19.373429745859138,
+          46.75123009866886
+        ],
+        [
+          -117.74715923254259,
+          -96.05013772301724
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    },
+    {
+      "gait": "ripple",
+      "motion": "arc",
+      "command_normalized": [
+        0.4,
+        0.7,
+        0.3
+      ],
+      "speed": 0.6,
+      "samples": 601,
+      "duration_s": 12.0,
+      "lengths_mm": [
+        54.0,
+        45.0,
+        77.0
+      ],
+      "phase_stance_counts": [
+        4,
+        6
+      ],
+      "min_phase_support_margin_mm": 70.33616985302942,
+      "joint_ranges_deg": [
+        [
+          -16.96768535783213,
+          17.93535451602779
+        ],
+        [
+          10.175551373247094,
+          47.783372019075436
+        ],
+        [
+          -125.4585024011562,
+          -72.1168837210616
+        ]
+      ],
+      "max_fk_consistency_error_mm": 0.0,
+      "state": "WALKING"
+    }
+  ]
+}

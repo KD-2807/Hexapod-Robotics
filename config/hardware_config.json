@@ -1,0 +1,28 @@
+{
+  "i2c": {
+    "sda_pin": 21,
+    "scl_pin": 22,
+    "frequency_hz": 400000
+  },
+  "pca9685": {
+    "addresses": [
+      64,
+      65
+    ],
+    "pwm_hz": 50,
+    "oscillator_hz": 25000000
+  },
+  "mpu6050": {
+    "enabled": true,
+    "address": 104,
+    "complementary_alpha": 0.98
+  },
+  "battery": {
+    "adc_pin": 34,
+    "divider_ratio": 3.13,
+    "cells": 2
+  },
+  "servo_output_enable_pin": -1,
+  "loop_hz": 50,
+  "status_hz": 5
+}

@@ -1,0 +1,149 @@
+{
+  "_note": "MAC DINH - PHAI HIEU CHINH bang tools/calibrate_servo.py tren robot that. servo_deg = offset_deg + direction * joint_deg.",
+  "servos": [
+    {
+      "leg": "i",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "i",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "i",
+      "joint": "tibia",
+      "offset_deg": 150.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "j",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "j",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "j",
+      "joint": "tibia",
+      "offset_deg": 150.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "k",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "k",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "k",
+      "joint": "tibia",
+      "offset_deg": 30.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "l",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "l",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "l",
+      "joint": "tibia",
+      "offset_deg": 30.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "m",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "m",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "m",
+      "joint": "tibia",
+      "offset_deg": 30.0,
+      "direction": -1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "n",
+      "joint": "coxa",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "n",
+      "joint": "femur",
+      "offset_deg": 90.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    },
+    {
+      "leg": "n",
+      "joint": "tibia",
+      "offset_deg": 150.0,
+      "direction": 1,
+      "pulse_min_us": 500,
+      "pulse_max_us": 2400
+    }
+  ]
+}

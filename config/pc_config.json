@@ -1,0 +1,10 @@
+{
+  "host": "192.168.4.1",
+  "port": 8888,
+  "heartbeat_interval_s": 0.3,
+  "move_repeat_interval_s": 0.1,
+  "response_timeout_s": 1.0,
+  "connect_timeout_s": 3.0,
+  "default_speed": 0.6,
+  "default_gait": "tripod"
+}

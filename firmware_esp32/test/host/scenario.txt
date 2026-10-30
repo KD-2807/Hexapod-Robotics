@@ -1,0 +1,55 @@
+# Kịch bản dùng chung cho Python và C++ (tools/crosscheck_firmware.py so sánh từng bước 20 ms).
+# Lệnh: stand_up | sit_down | enable | disable | move vx vy wz speed | stop | gait <tên> | speed v
+#       pose z roll pitch yaw | action <tên> | estop | reset | link_lost | run <giây>
+stand_up
+run 1.6
+move 0 1 0 0.8
+run 3.0
+stop
+run 1.5
+gait ripple
+move 0.5 0.5 0.3 1.0
+run 4.0
+stop
+run 1.5
+pose 8 2 -2 3
+run 2.0
+move 0 0 1 0.6
+run 3.0
+move 1 0 0 0.6
+run 3.0
+stop
+run 1.5
+gait wave
+move -1 0 0 1.0
+run 6.0
+stop
+run 2.0
+pose 0 0 0 0
+run 2.0
+move 5 0 0 0.5
+action wave
+run 5.0
+action dance
+run 7.0
+action bob
+run 4.0
+move 0 1 0 1.0
+run 1.0
+sit_down
+run 4.0
+disable
+run 0.2
+stand_up
+run 1.6
+move 0 1 0 1.0
+run 1.0
+link_lost
+run 4.0
+estop
+run 0.2
+stand_up
+reset
+run 0.2
+enable
+run 0.2
