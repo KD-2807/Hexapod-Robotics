@@ -1,4 +1,5 @@
 # Hexapod - Mô hình toán và phần mềm điều khiển
+HCMUT Projects
 
 Phần mềm robot sáu chân, mỗi chân ba khớp, gồm mô hình toán, thuật toán chuyển động, ứng dụng PC và firmware ESP32. Cấu hình thống nhất: **coxa 54 mm, femur 45 mm, tibia 77 mm**.
 
