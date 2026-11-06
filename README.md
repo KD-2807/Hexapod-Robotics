@@ -49,7 +49,7 @@ hexapod/
 │   ├── motion_core/            # Điều khiển chuyển động và máy trạng thái
 │   ├── posture_core/           # Tạo tư thế và định hướng thân
 │   └── robot_core/             # Động học, Thân, Chân và logic An toàn
-├── simulation/                  # Trình giả lập và trực quan hóa robot
+├── simulation/                 # Trình giả lập và trực quan hóa robot
 │   └── server/                 # Server giả lập xử lý lệnh từ xa
 ├── tests/                      # Kiểm tra tích hợp và đơn vị cho logic dùng chung/app
 └── tools/                      # Các kịch bản tiện ích (Hiệu chỉnh, quét I2C, v.v.)
