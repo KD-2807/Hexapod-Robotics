@@ -28,6 +28,33 @@ Python đảm nhiệm tính toán, mô phỏng, giao diện và công cụ kiể
 | `tests/` | Kiểm tra Python và đối chiếu với firmware |
 | `docs/` | Kiến trúc, giao thức, phần cứng và kết quả kiểm chứng |
 
+```text
+hexapod/
+├── config/                     # Tệp cấu hình robot, dáng đi, phần cứng và servo (JSON)
+├── docs/                       # Tài liệu (Kiến trúc, Giao thức, Thiết lập phần cứng)
+├── firmware_esp32/             # Firmware ESP32 (Project PlatformIO)
+│   ├── include/                # Tệp tiêu đề và cấu hình tự động tạo
+│   ├── src/                    # Mã nguồn firmware (Core, App, Giao tiếp, Phần cứng)
+│   ├── test/                   # Kiểm tra đơn vị firmware
+│   └── tools/                  # Công cụ build dành riêng cho firmware
+├── motion_model/               # Mô hình toán học và mô phỏng chuyển động
+├── pc_app/                     # Ứng dụng điều khiển trên PC (Python/PyQt)
+│   ├── communication/          # Client kết nối Serial và TCP
+│   ├── models/                 # Mô hình dữ liệu trạng thái robot
+│   └── ui/                     # Các bảng điều khiển và widget giao diện người dùng
+├── shared/                     # Logic dùng chung giữa App PC và Mô phỏng
+│   ├── common/                 # Hằng số, Enum, Giao thức và Tiện ích toán học
+│   ├── gait_core/              # Triển khai dáng đi (Tripod, Wave, Ripple, v.v.)
+│   ├── interfaces/             # Backend trừu tượng cho actuator và truyền tải
+│   ├── motion_core/            # Điều khiển chuyển động và máy trạng thái
+│   ├── posture_core/           # Tạo tư thế và định hướng thân
+│   └── robot_core/             # Động học, Thân, Chân và logic An toàn
+├── simulation/                  # Trình giả lập và trực quan hóa robot
+│   └── server/                 # Server giả lập xử lý lệnh từ xa
+├── tests/                      # Kiểm tra tích hợp và đơn vị cho logic dùng chung/app
+└── tools/                      # Các kịch bản tiện ích (Hiệu chỉnh, quét I2C, v.v.)
+```
+
 Công thức FK/IK Python nằm tại `shared/common/leg_geometry.py`. Mô hình toán, trình xuất CSV và các giao diện mô phỏng dùng cùng MotionController. Firmware sử dụng header sinh từ cùng nguồn cấu hình JSON.
 
 ## Môi trường
