@@ -1,0 +1,1 @@
+gồm các part đơn lẻ của hexapod
